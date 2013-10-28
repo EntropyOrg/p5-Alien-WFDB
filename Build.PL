@@ -37,6 +37,7 @@ my %module_build_args = (
     "Alien::Base" => "0.002",
     "File::ShareDir" => "1.03",
     "Path::Class" => "0.013",
+    "parent" => 0,
     "strict" => 0,
     "warnings" => 0
   },
