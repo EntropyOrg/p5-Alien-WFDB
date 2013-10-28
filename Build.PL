@@ -7,8 +7,9 @@ use lib qw{inc}; use Alien::Base::ModuleBuild;
 
 my %module_build_args = (
   "alien_build_commands" => [
-    "%pconfigure --prefix=%s --disable-programs",
-    "make"
+    "%pconfigure --prefix=%s",
+    "make",
+    "make check"
   ],
   "alien_name" => "WFDB",
   "alien_repository" => {
