@@ -15,6 +15,8 @@ __END__
 
 =pod
 
+=encoding UTF-8
+
 =head1 NAME
 
 Alien::WFDB - Alien package for the WFDB (WaveForm DataBase) library
