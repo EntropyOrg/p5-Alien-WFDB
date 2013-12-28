@@ -15,9 +15,9 @@ package
 
 sub alien_patch {
 	# the -no-docs tarball does not have a doc directory, but the build
-	# script still looks for one
-	mkdir 'doc';
-	return 0;
+	# script still looks for one --- so we create an empty one if it
+	# doesn't exist
+	-d 'doc' or mkdir 'doc';
 }
  
 1;
