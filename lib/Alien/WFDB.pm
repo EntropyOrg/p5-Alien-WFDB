@@ -4,4 +4,6 @@ package Alien::WFDB;
 use strict;
 use warnings;
 
+use parent 'Alien::Base';
+
 1;
