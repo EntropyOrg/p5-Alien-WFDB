@@ -15,7 +15,7 @@ my %module_build_args = (
   "alien_repository" => {
     "host" => "physionet.org",
     "location" => "/physiotools/archives/",
-    "pattern" => qr/(?^u:^wfdb-([\d\.]+)\.tar\.gz$)/,
+    "pattern" => qr/(?^u:^wfdb-([\d\.]+)(-no-docs)?\.tar\.gz$)/,
     "protocol" => "http"
   },
   "build_requires" => {},

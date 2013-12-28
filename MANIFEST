@@ -1,10 +1,10 @@
 Build.PL
 Changes
 LICENSE
+LICENSE.wfdb
 MANIFEST
 META.yml
 README
-README.md
 dist.ini
 inc/Alien/WFDB/ModuleBuild.pm
 lib/Alien/WFDB.pm

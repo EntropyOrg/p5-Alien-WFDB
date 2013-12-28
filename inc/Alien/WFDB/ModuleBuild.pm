@@ -1,10 +1,10 @@
 package Alien::WFDB::ModuleBuild;
- 
+
 use strict;
 use warnings;
 use base qw( Alien::Base::ModuleBuild );
 use FindBin ();
- 
+
 sub new {
   my $class = shift;
   return $class->SUPER::new(@_);
@@ -27,5 +27,5 @@ install:
 END
 	}
 }
- 
+
 1;
