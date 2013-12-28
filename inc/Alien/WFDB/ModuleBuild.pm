@@ -13,11 +13,19 @@ sub new {
 package
   main;
 
+use File::Spec;
+
 sub alien_patch {
 	# the -no-docs tarball does not have a doc directory, but the build
 	# script still looks for one --- so we create an empty one if it
-	# doesn't exist
-	-d 'doc' or mkdir 'doc';
+	# doesn't exist and add stub Makefile
+	unless( -d 'doc' ) {
+		mkdir 'doc';
+		open my $makefile, '>', File::Spec->catfile('doc','Makefile') or die "could not write stub makefile";
+		print $makefile <<END
+install:
+END
+	}
 }
  
 1;
