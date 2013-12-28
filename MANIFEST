@@ -7,5 +7,6 @@ META.yml
 README
 README.md
 dist.ini
+inc/Alien/WFDB/ModuleBuild.pm
 lib/Alien/WFDB.pm
 t/use.t
