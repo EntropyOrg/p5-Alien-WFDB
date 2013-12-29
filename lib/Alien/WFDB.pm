@@ -1,6 +1,6 @@
 package Alien::WFDB;
 {
-  $Alien::WFDB::VERSION = '0.001';
+  $Alien::WFDB::VERSION = '0.001_01';
 }
 
 use strict;
@@ -23,7 +23,7 @@ Alien::WFDB - Alien package for the WFDB (WaveForm DataBase) library
 
 =head1 VERSION
 
-version 0.001
+version 0.001_01
 
 =head1 SEE ALSO
 

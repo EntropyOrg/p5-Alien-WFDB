@@ -15,7 +15,7 @@ my %module_build_args = (
   "alien_repository" => {
     "host" => "physionet.org",
     "location" => "/physiotools/archives/",
-    "pattern" => qr/(?^u:^wfdb-([\d\.]+)(-no-docs)?\.tar\.gz$)/,
+    "pattern" => "^wfdb-([\\d\\.]+)(-no-docs)?\\.tar\\.gz\$",
     "protocol" => "http"
   },
   "build_requires" => {},
@@ -28,7 +28,7 @@ my %module_build_args = (
     "Zakariyya Mughal <zmughal\@cpan.org>"
   ],
   "dist_name" => "Alien-WFDB",
-  "dist_version" => "0.001",
+  "dist_version" => "0.001_01",
   "license" => "perl",
   "module_name" => "Alien::WFDB",
   "recommends" => {},
