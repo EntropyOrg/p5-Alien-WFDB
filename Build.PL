@@ -29,7 +29,7 @@ my %module_build_args = (
     "Zakariyya Mughal <zmughal\@cpan.org>"
   ],
   "dist_name" => "Alien-WFDB",
-  "dist_version" => "0.001_01",
+  "dist_version" => "0.001_02",
   "license" => "perl",
   "module_name" => "Alien::WFDB",
   "recommends" => {},
