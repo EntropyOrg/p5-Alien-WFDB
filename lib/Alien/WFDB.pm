@@ -1,8 +1,5 @@
 package Alien::WFDB;
-{
-  $Alien::WFDB::VERSION = '0.001_01';
-}
-
+$Alien::WFDB::VERSION = '0.001_01';
 use strict;
 use warnings;
 
