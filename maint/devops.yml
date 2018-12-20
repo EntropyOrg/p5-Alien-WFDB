@@ -1,0 +1,10 @@
+native:
+  debian:
+    packages:
+      - libcurl4-gnutls-dev
+  macos-homebrew:
+    packages:
+      - curl
+  msys2-mingw64:
+    packages:
+      - mingw-w64-x86_64-curl
