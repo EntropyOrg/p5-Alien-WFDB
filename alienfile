@@ -29,6 +29,6 @@ EOF
 
 	build [
 		"sh ./configure --prefix=%{.install.prefix}",
-		'%{make} install',
+		'%{make} WFDBROOT=%{.install.prefix} install',
 	];
 };
