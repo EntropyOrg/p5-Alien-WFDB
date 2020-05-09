@@ -5,7 +5,7 @@ share {
 	requires 'Path::Tiny' => 0;
 
 	plugin Download => (
-		url => 'https://physionet.org/physiotools/archives/',
+		url => 'https://archive.physionet.org/physiotools/archives/',
 		# the -no-docs archive is smaller, if it exists
 		version => qr/wfdb-([\d\.]+)-no-docs\.tar\.gz/,
 	);
