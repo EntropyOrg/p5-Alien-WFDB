@@ -4,8 +4,9 @@ share {
 	requires 'Alien::gmake' => 0.14;
 	requires 'Path::Tiny' => 0;
 
+	# https://github.com/bemoody/wfdb
 	plugin Download => (
-		url => 'https://physionet.org/physiotools/archives/',
+		url => 'https://archive.physionet.org/physiotools/archives/',
 		# the -no-docs archive is smaller, if it exists
 		version => qr/wfdb-([\d\.]+)-no-docs\.tar\.gz/,
 	);
